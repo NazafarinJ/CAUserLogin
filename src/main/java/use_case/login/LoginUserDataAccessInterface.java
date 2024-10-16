@@ -28,8 +28,14 @@ public interface LoginUserDataAccessInterface {
     User get(String username);
 
     /**
-     * For task 2.
-     * @param name
+     * Made this for task 2.
+     * @param name is set to current user.
      */
     void setCurrentUser(String name);
+
+    /**
+     * A method in the in this interface.
+     * @return a string
+     */
+    String getCurrentUser();
 }
